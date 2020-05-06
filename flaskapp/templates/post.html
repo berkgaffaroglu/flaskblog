@@ -1,0 +1,32 @@
+{% extends "base.html "%}
+{% block title %} {{ post.title }} {% endblock %}
+{% block content %} 
+
+
+<div class="card" style="width: auto 100%">
+
+  <div class="card-body">
+       <a class="btn btn-outline-info" href="/posts/"><i class="fas fa-chevron-circle-left"></i> Go back to all posts.</a>
+     <h1 class="card-title">Post ID: {{ post.id }}</h1><h6 class="card-subtitle mb-2 text-muted">By {{ post.author }}</h6>
+    <h5 class="card-title">{{ post.title }}</h5>
+
+    <p class="card-text">{{ post.content }}</p>
+	    
+    <a class="btn btn-outline-primary"  href="/post/edit/{{ post.id }}" id="editbutton">Edit</a>
+	<a class="btn btn-outline-danger"  href="/post/delete/{{ post.id }}" id="deletebutton">Delete</a>
+	
+	
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
