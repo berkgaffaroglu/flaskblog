@@ -1,6 +1,6 @@
 
 from datetime import datetime
-from flaskapp import db
+from flaskblog import db
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     author = db.Column(db.String(20), default="Admin")

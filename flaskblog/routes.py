@@ -1,7 +1,7 @@
 from flask import render_template,redirect, url_for,request
-from flaskapp import app,db
-from flaskapp.models import Post
-from flaskapp.forms import CreatePostForm,DeleteForm,EditForm
+from flaskblog import app,db
+from flaskblog.models import Post
+from flaskblog.forms import CreatePostForm,DeleteForm,EditForm
 
 @app.route('/')
 @app.route('/index')
