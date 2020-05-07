@@ -1,6 +1,6 @@
 # Project Title
 
-This blog is a great example of basic blogging structure. It is easy to read and also has an demo version. (https://berkflask.herokuapp.com/)
+This blog is a great example of basic blogging structure. It is easy to read and also has an demo version.
 
 ## Deployment
 
