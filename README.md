@@ -1,6 +1,6 @@
 # Project Title
 
-This blog is a great example of basic blogging structure. It is easy to read and also has an demo version.
+This blog has all the functions of creating, deleting and editing posts. It has a package structure (initialized), so it is easy and open to devolopment.
 
 ## Deployment
 
