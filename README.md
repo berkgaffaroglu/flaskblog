@@ -1,4 +1,4 @@
-# Project Title
+# FLASKBLOG
 
 This blog has all the functions of creating, deleting and editing posts. It has a package structure (initialized), so it is easy and open to devolopment.
 
